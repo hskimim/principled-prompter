@@ -1,7 +1,7 @@
-# prompt-hacker
+# principled-prompter
 
 ## Introduction
-Among the 26 principles presented in the paper "Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4", 24 principles, examples of which can be obtained from the [source GitHub](https://github.com/VILA-Lab/ATLAS), are followed.
+Among the 26 principles presented in the paper ["Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4"](https://arxiv.org/abs/2312.16171), 24 principles, examples of which can be obtained from the [source GitHub](https://github.com/VILA-Lab/ATLAS), are followed.
 
 From the data provided by the source GitHub, we were able to obtain data before and after correction for about 20 prompts for each principle, and used this as a few shot example to give instructions to LLM.
 
