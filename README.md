@@ -10,6 +10,12 @@ At the same time, when asked to create a prompt that satisfies too many principl
 In order to control unexpected corrections that occur in the process of leaving everything to LLM, an Analyzer and Observer that control the process were implemented separately.
 
 ## Features
+<details>
+<summary>Diagram</summary>
+
+![structure](./assets/diagram.png)
+</details>
+
 ### Prompt Editor 
 - [X] Make the user's prompt follow the principle as much as possible
 - [X] Cut the principle into chunks of `num_agent` to enable divide and conquer.
