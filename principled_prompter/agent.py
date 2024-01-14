@@ -1,4 +1,3 @@
-import logging
 import random
 from collections import Counter
 from copy import copy
@@ -20,7 +19,6 @@ from principled_prompter.schemas import (
 )
 
 load_dotenv(verbose=True)
-logging.basicConfig(level=logging.DEBUG)
 
 
 class OpenAIModel:
@@ -272,7 +270,7 @@ class PromptCalibrator(OpenAIModel):
 
             if observed == "CORRECTION" and before_score < score:
                 if verbose:
-                    logging.debug(f"{prompt} \n -> \n {corrected}")
+                    print(f"{prompt} \n -> \n {corrected}")
                 prompt = corrected
                 before_score = len(analyzed)
                 memory = analyzed
